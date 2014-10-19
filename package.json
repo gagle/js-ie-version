@@ -1,0 +1,16 @@
+{
+  "name": "ie-version",
+  "version": "0.1.0",
+  "description": "Checks the Internet Explorer's version",
+  "keywords": [
+    "ie",
+    "version",
+    "feature",
+    "detection",
+    "emulation"
+  ],
+  "author": "Gabriel Llamas <gagle@outlook.com>",
+  "repository": "git://github.com/gagle/js-ie-version.git",
+  "license": "MIT",
+  "main": "lib/ie-version"
+}

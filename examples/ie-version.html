@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="./require.js"></script>
+  <script>
+    require (["../lib/ie-version"], function (ie){
+      alert ("version: " + ie.version + ", emulated: " + ie.emulated);
+    });
+  </script>
+</head>
+</html>
