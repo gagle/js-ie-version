@@ -3,8 +3,8 @@ ie-version
 
 #### Checks the Internet Explorer's version ####
 
-[![Bower version](https://badge.fury.io/bo/io-version.svg)](http://badge.fury.io/bo/io-version)
-[![NPM version](https://badge.fury.io/js/ie-version.svg)](http://badge.fury.io/js/ie-version)
+[![Bower version][bower-image]][bower-url]
+[![NPM version][npm-image]][npm-url]
 
 The module uses feature detection and detects from IE6 up to IE11. Furthermore, it also checks if Internet Explorer is being emulated by changing the document mode.
 
@@ -22,3 +22,8 @@ require (["path/to/ie-version"], function (ie){
   alert ("version: " + ie.version + ", emulated: " + ie.emulated);
 });
 ```
+
+[npm-image]: http://img.shields.io/npm/v/ie-version.svg
+[npm-url]: https://npmjs.org/package/ie-version
+[bower-image]: http://img.shields.io/bower/v/ie-version.svg
+[bower-url]: http://bower.io
